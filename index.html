@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="res.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <section id="section">
+
+        <section id="sec1">
+            <nav id="nav1">
+                <h2>OIC Foundation</h2>
+                <ul id="ul1">
+                    <li><a href=""><i class="fa-solid fa-table-columns low"></i>Dashboard</a></li>
+                    <li><a href=""><i class="fa-solid fa-user low"></i>Profile</a></li>
+                    <li><a href=""><i class="fa-regular fa-comment-dots low"></i>Messages</a></li>
+                    <li><a href=""><i class="fa-solid fa-group-arrows-rotate low"></i>Community</a></li>
+                    <li><a href=""><i class="fa-solid fa-credit-card low"></i>Records</a></li>
+                </ul>
+    
+                <ul id="ul2">
+                    <li><a href="">Settings</a></li>
+                    <li><a href="">Support</a></li>
+                    <li><a href="">Log out</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <div class="divider"></div>
+    
+    
+        <section id="sec2">
+            <div>
+
+                <div id="con1">
+                    <h3>Welcome back, Blessing!</h3>
+
+                    <div id="icons"><i class="fa-regular fa-comments high"></i> <i class="fa-regular fa-bell high"></i></div>
+                
+                    <span>December 2, Friday</span>
+                </div>
+        
+               
+
+                <div id="field">
+                    
+                    <div  id="con2">
+                       <span>Your Profile</span>
+                    
+                       <div id="img">
+                        <img src="images/profile-picture.jpg" alt="">
+                        </div>
+                    </div>
+                    <fieldset id="fieldset">
+                        <div class="profile">
+                           <span class="pro">Name: <span id="m1"></span></span>
+                        </div>
+
+                        <div class="profile">
+                            <span class="pro">Email: <span id="m2"></span></span>
+                         </div>
+
+                         <div class="profile">
+                            <span class="pro">Phone Number: <span id="m3"></span></span>
+                         </div>
+
+                         <div class="profile">
+                            <span class="pro">Password: <span id="m4"></span></span>
+                         </div>
+                    </fieldset>
+                </div>
+               
+        
+                
+            </div>
+    
+        </section>
+        <div class="divider"></div>
+    
+        <section id="sec3">
+           
+    
+            <div id="edit-profile">Edit Your Profile Here</div>
+
+            <fieldset id="set" oninput="info()">
+                <div>
+                    <p>Enter Your Name</p> <input type="text" name="" id="in1">
+                    <span class="int" id="ou1"></span>
+                </div>
+
+                <div>
+                    <p>Enter Your Email</p> <input type="text" name="" id="in2">
+                    <span class="int" id="ou2"></span>
+                </div>
+
+                <div>
+                    <p>Enter Your Phone Number</p> <input type="text" name="" id="in3">
+                    <span class="int" id="ou3"></span>
+                </div>
+
+                <div>
+                    <p>Enter Your Password</p> <input type="text" name="" id="in4">
+                    <span class="int" id="ou4"></span>
+                </div>
+
+                <div>
+                    <p>Confirm Your Password</p> <input type="text" name="" id="in5">
+                    <span class="int" id="ou5"></span>
+                </div>
+            </fieldset>
+
+            <div id="butt">
+            <button id="submit" onclick="submit()">Submit</button>
+            </div>
+
+            <div id="cont1">
+                <!-- <h3>Your Schedule</h3> -->
+                <!-- <img id="img" src="images/calen.jpg" alt=""> -->
+            </div>
+
+
+        </section>
+        
+    
+    
+
+
+
+    </section>
+
+
+
+
+
+
+    <script src="java.js"></script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+/* @media (max-width: 490px) {
+    #section{
+       flex-direction: column;
+    }
+
+    .divider{
+        border-left: 1px solid transparent;
+        margin-top: 35px;
+      
+    }
+
+    #sec #nav1 li{
+        list-style-type: none;
+        
+    }
+    #sec1{
+        width: 100%;
+        /* text-align: center; */
+        align-self: center;
+        padding: 0;
+    }
+    #sec1 .low{
+        padding-right: 0;
+        /* padding-left: 30px; */
+        display: none;
+    }
+    #nav1 h2{
+        font-size: 50px;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+    
+
+    
+} */
