@@ -108,6 +108,11 @@ function submit(){
     document.getElementById('m2').innerHTML = email
     document.getElementById('m3').innerHTML = number
     document.getElementById('m4').innerHTML = conpassword
+    document.getElementById('in1').value = ""
+    document.getElementById('in2').value = ""
+    document.getElementById('in3').value = ""
+    document.getElementById('in4').value = ""
+    document.getElementById('in5').value = ""
 
     
 
